@@ -1,0 +1,98 @@
+﻿{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai!  Mau tau informasi tentang apa nih?",
+        "Halo! salam kenal ya, ada keluhan apa nih?",
+        "Helo! ada yang bisa kami bantu?"
+      ]
+    },
+    {
+      "tag": "Penyakit Atopic",
+      "patterns": [
+        "Apa itu Penyakit Atopic?",
+        "Atopic adalah?",
+	
+      ],
+      "responses": [
+        "salah satu jenis dermatitis (eksim) yang terjadi akibat adanya peradangan pada kulit.",
+        "peradangan pada kulit ini bisa disertai dengan kulit yang memerah, kering, dan pecah-pecah. Peradangan biasanya berlangsung lama, bahkan hingga bertahun-tahun."
+      ]
+    },
+    {
+      "tag": "penyebab penyakit Atopic"
+      "patterns": [
+        "Apa penyebab penyakit Atopic?",
+        "apa yang membuat penyakit Atopic terjadi?"
+      ],
+      "responses": [
+        "penyebab Atopic karena akibat interaksi multifaktorial, yaitu faktor genetik (keturunan), lingkungan, gangguan fungsi sawar (pelindung) kulit, faktor imunologi, dan infeksi."
+    {
+      "tag": "Penyakit Eksim",
+      "patterns": [
+	  "Apa itu Penyakit Eksim?",
+	 "Eksim adalah?"
+      ],
+      "responses": [
+        "kondisi kulit yang terjadi pada banyak orang di dunia",
+        "Kondisi kulit ini menyebabkan kulit kering, gatal, pecah-pecah, bahkan lecet",
+        "Memiliki eksim tentu tidak nyaman dan bisa mengganggu kehidupan pengidap."
+      ]
+
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+  ]
+}
